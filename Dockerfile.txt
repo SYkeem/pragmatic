@@ -8,8 +8,7 @@ WORKDIR /home/pragmatic/
 
 RUN pip install -r requirements.txt
 
-RUN echo "SECRET_KEY=django-insecure-3q8^u^92#%p&#5f7ex&!k-#+(v#=ltxu1ieeywy^45cf(6k668
-" > .env
+RUN echo "SECRET_KEY=django-insecure-3q8^u^92#%p&#5f7ex&!k-#+(v#=ltxu1ieeywy^45cf(6k668" > .env
 
 RUN python manage.py migrate
 
